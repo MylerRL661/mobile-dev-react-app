@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "FinalApp",
+    "slug": "FinalApp",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.uol.cpd",
+      "config": {
+        "googleMapsApiKey": "AIzaSyAKn574t4f4tZnZHXyUFqTnDUGRApOiRyk"
+      }
+    },
+    "android": {
+      "package": "com.uol.cpd",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAKn574t4f4tZnZHXyUFqTnDUGRApOiRyk"
+        }
+      }
+    },
+    "description": "student event display app - final version\ncpd submission"
+  }
+}
